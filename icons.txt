@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+/Home Services Aboutus Contact us/
+<i class="fa fa-home" aria-hidden="true"></i>
+<i class="fa fa-caret-down" aria-hidden="true"></i>
+<i class="fa fa-info-circle" aria-hidden="true"></i>
+<i class="fa fa-phone" aria-hidden="true"></i>
+
+/Login and Register now/
+<i class="fa fa-user-o" aria-hidden="true"></i>
+<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+
+/knife&fork symbol menu/
+<i class="fa fa-cutlery" aria-hidden="true"></i>
+
+/Star ratings/
+<i class="fa fa-star" aria-hidden="true">
+<i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+/Add to cart icon/
+<i class="fa fa-cart-plus" aria-hidden="true"></i>
+
+/Map location symbol/
+<i class="fa fa-map-marker"></i>
+
+/phone symbol/
+<i class="fa fa-phone"></i>
+
+/email symbol/
+<i class="fa fa-envelope"></i>
+
+/Social media icons/
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-whatsapp" aria-hidden="true"></i>
+                
+

@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Biryani.jpg);
+    font-family: 'Poppins',sans-serif;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav ul{
+    float: right;
+     List-style-type: none;
+     margin: 25px;
+}
+.main-nav ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+    right: 20%;
+    padding: 5px 20px;
+    display: block;
+}
+
+.main-nav ul li ul{
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 228, 196, 0.495);
+    padding: 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.main-nav ul li:hover ul{
+    display: block;
+    transition: 0.6s ease;
+}
+
+.main-nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+.main-nav ul li ul li a{
+    padding: 8px 14px;
+    
+}
+.main-nav ul li ul li a :hover{
+    background-color: chocolate;
+    color: whitesmoke;
+}
+
+.main-nav li a:hover{
+    background-color: chocolate;
+    color: whitesmoke;
+
+}
+.main-nav li.active a{
+    background-color: chocolate;
+    color: whitesmoke;
+}
+
+
+.title{
+    position: absolute;
+    top: 35%;
+    Left: 38%;
+    transform: translate(-30%-30%);
+}
+.title h1{
+    color: #fff;
+    font-size: 40px;
+}
+.wd h2{
+    width: 200px;
+    height: 139px;
+color: whitesmoke;
+font-size: 25px;
+    padding: 40px;
+    left: 39%;
+    white-space: nowrap;
+    top:15%;
+}
+.wd h4{
+    color: darkgray;
+    font-weight: normal;
+    font-style: italic;
+    margin: 20px;
+    top: 15%;
+}
+.button{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-30%,-30%)
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 6px 24px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: #fff;
+}
+body{
+    background-color: #f3f3f3;
+    font-family: 'Poppins',sans-serif;
+    min-height: 250%
+}
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+    min-height: 100%;
+overflow: auto;
+padding-bottom: 100px;
+}
+.heading{
+    background-color: chocolate;
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding: 60px 0 15px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.heading>h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0 20px;
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.details>p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.details>button{
+    background-color: chocolate;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+
+#container {
+    min-height: 100%;
+ }
+#footer {
+background-color: #000;
+position: relative;
+height: 180px;
+clear: both;
+margin-top: -100px;
+color: #fff;
+}
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    footer {
+        padding-top: 4px;
+    }
+}
+
+.footer-distributed{
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span{
+    color: chocolate;
+}
+
+
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a{
+    color: chocolate;
+    text-decoration: none;
+    ;
+}
+
+
+.footer-distributed .footer-right{
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: chocolate;
+}
+
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+}
+}
